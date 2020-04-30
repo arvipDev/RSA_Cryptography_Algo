@@ -13,14 +13,14 @@
         <Insets top="10" />
     </padding>
 
-    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="387.0" text="Cryptography using private and public keys" />
-   <TextArea prefHeight="85.0" prefWidth="387.0" GridPane.rowIndex="1" />
-   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="387.0" text="View encrypted message below" textFill="#d30707" GridPane.rowIndex="3" />
-   <Label alignment="TOP_LEFT" prefHeight="85.0" prefWidth="387.0" GridPane.rowIndex="4" />
-   <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="387.0" text="Encrypt and send message to its destination" GridPane.rowIndex="2" />
-   <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="387.0" text="Decrypt message" GridPane.rowIndex="5" />
-   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="387.0" text="View decrypted message below" textFill="#00ab0b" GridPane.rowIndex="6" />
-   <Label alignment="TOP_LEFT" prefHeight="85.0" prefWidth="387.0" GridPane.rowIndex="7" />
+    <Label id="main_title" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="387.0" text="Cryptography using private and public keys" />
+   <TextArea id="input_message" prefHeight="85.0" prefWidth="387.0" GridPane.rowIndex="1" />
+   <Label id="encrypt_title" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="387.0" text="View encrypted message below" textFill="#d30707" GridPane.rowIndex="3" />
+   <Label id="encrypt_message" alignment="TOP_LEFT" prefHeight="85.0" prefWidth="387.0" GridPane.rowIndex="4" />
+   <Button id="encrypt_button" mnemonicParsing="false" prefHeight="25.0" prefWidth="387.0" text="Encrypt and send message to its destination" GridPane.rowIndex="2" />
+   <Button id="decrypt_button" mnemonicParsing="false" prefHeight="25.0" prefWidth="387.0" text="Decrypt message" GridPane.rowIndex="5" />
+   <Label id="decrypt_title" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="387.0" text="View decrypted message below" textFill="#00ab0b" GridPane.rowIndex="6" />
+   <Label id="decrypt_message" alignment="TOP_LEFT" prefHeight="85.0" prefWidth="387.0" GridPane.rowIndex="7" />
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
