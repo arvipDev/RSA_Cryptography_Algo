@@ -25,7 +25,6 @@ public class Controller {
 
     @FXML
     public void onDecryptButtonClicked () {
-        System.out.println("in decrypt " + text);
         decrypt_label.setText(text);
     }
 }
