@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Encrypt and Decrypt messages");
-        primaryStage.setScene(new Scene(root, 425, 500));
+        primaryStage.setScene(new Scene(root, 600, 500));
         primaryStage.show();
     }
 
