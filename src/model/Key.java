@@ -1,6 +1,8 @@
 package model;
 
-public class Key {
+import java.math.BigInteger;
 
-
+@FunctionalInterface
+public interface Key {
+    public BigInteger getKey() ;
 }
