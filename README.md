@@ -13,13 +13,13 @@ Mathematical calculations required for generating Public and Private keys.
 2) Product of the two prime numbers (p and q) = “N”
 3) “Φ(N)” = (p-1)(q-1)
 4) “e” such that, e is co-prime of N
-a. e is a positive integer
-b. 1 < e < Φ(N)
-c. e is not a factor of N
+  a. e is a positive integer
+  b. 1 < e < Φ(N)
+  c. e is not a factor of N
 5) “d” such that,
-a. [ 1+ k (Φ(N)) ] / e
-b. Where 0 < k < e
-c. [ 1+ k (Φ(N)) ] mod e = 0
+  a. [ 1+ k (Φ(N)) ] / e
+  b. Where 0 < k < e
+  c. [ 1+ k (Φ(N)) ] mod e = 0
 NOTE – My personal secret recipe for finding e – “e is the largest prime number greater than –
 1) Φ(N) / 2 if Φ(N) = even number
 2) Φ(N) / 3 if Φ(N) = odd number”
